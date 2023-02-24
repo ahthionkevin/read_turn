@@ -42,7 +42,7 @@ const Header = () => {
           </div>
 
           <button className='btn btn-quaternary flex items-center gap-x-[20px] group'>
-            Request Demo
+            Commandez dès maintenant
             <BsArrowRight className='text-2xl text-accent-primary group-hover:text-white transition' />
           </button>
 

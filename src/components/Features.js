@@ -10,7 +10,7 @@ const Features = () => {
   // destructure features data
   const { title, subtitle, list } = featuresData;
   return (
-    <section className='my-[70px] xl:my-[150px]'>
+    <section id="howItWorks" className='my-[70px] xl:my-[150px]'>
       <div className='container mx-auto'>
         {/* text */}
         <div className='text-center'>
@@ -62,12 +62,12 @@ const Features = () => {
                   <h3 className='h3 mb-4'>{title}</h3>
                   <p className='font-light italic mb-4'>{description}</p>
                   {/* link & arrow */}
-                  <div className='flex items-center gap-x-2 group'>
+                  {/* <div className='flex items-center gap-x-2 group'>
                     <a className='text-primary font-bold' href='#'>
                       {linkText}
                     </a>
                     <BsArrowRight className='text-xl text-accent-primary group-hover:ml-[5px] transition-all' />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             );

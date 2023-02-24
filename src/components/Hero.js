@@ -10,7 +10,7 @@ const Hero = () => {
   // destructure hero
   const { title, subtitle, btnText, image } = heroData;
   return (
-    <section className='lg:h-[900px] py-12'>
+    <section id="home" className='lg:h-[900px] py-12'>
       <Header />
       <div className='container mx-auto h-full relative'>
         <div className='flex flex-col xl:flex-row items-center h-full md:py-24'>
@@ -18,7 +18,7 @@ const Hero = () => {
           <div className='text-center xl:text-left xl:absolute'>
             {/* title */}
             <h1
-              className='h1 xl:max-w-[700px] mb-6 xl:mb-12'
+              className='h2 xl:max-w-[700px] mb-6 xl:mb-12'
               data-aos='fade-down'
               data-aos-delay='400'
             >

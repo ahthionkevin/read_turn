@@ -23,7 +23,7 @@ const CtaSection = () => {
             </p>
           </div>
           {/* buttons */}
-          <div className='flex flex-col xl:flex-row gap-y-4 gap-x-[30px]'>
+          {/* <div className='flex flex-col xl:flex-row gap-y-4 gap-x-[30px]'>
             <button
               className='btn btn-secondary'
               data-aos='fade-up'
@@ -39,7 +39,7 @@ const CtaSection = () => {
               {btnText2}
               <BsArrowRight className='text-2xl text-accent-primary group-hover:text-white transition' />
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

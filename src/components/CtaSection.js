@@ -4,11 +4,10 @@ import React from 'react';
 import { ctaData } from '../data';
 
 // import icons
-import { BsArrowRight } from 'react-icons/bs';
 
 const CtaSection = () => {
   // destructure cta data
-  const { title, subtitle, btnText1, btnText2 } = ctaData;
+  const { title, subtitle } = ctaData;
   return (
     <section className='my-[75px] xl:my-[150px] border-t-2' data-aos='fade-up'>
       <div className='container mx-auto'>

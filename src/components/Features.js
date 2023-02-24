@@ -3,9 +3,6 @@ import React from 'react';
 // import features data
 import { featuresData } from '../data';
 
-// import icons
-import { BsArrowRight } from 'react-icons/bs';
-
 const Features = () => {
   // destructure features data
   const { title, subtitle, list } = featuresData;
@@ -33,7 +30,7 @@ const Features = () => {
         <div className='grid grid-cols-1 gap-[50px] xl:grid-cols-2'>
           {list.map((feature, index) => {
             // destructure feature
-            const { image, bgImage, title, description, linkText, delay } =
+            const { image, bgImage, title, description, delay } =
               feature;
             // feature item
             return (
@@ -46,7 +43,7 @@ const Features = () => {
               >
                 {/* bg image */}
                 <div className='hidden xl:flex absolute top-0 right-0 -z-10'>
-                  <img src={bgImage} />
+                  <img src={bgImage} alt=""/>
                 </div>
 
                 {/* icon image */}
